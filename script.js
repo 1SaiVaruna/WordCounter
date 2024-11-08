@@ -6,14 +6,14 @@ function atLeastTwoCharacters(text){
 
 function absenceOfThreeConsecutiveCharacters(text){
     for ( const character of text){
-        const occurrences = Array.from(text).filter(v => v == character).length;
+        const occurrences = Array.from(text).filter((v) => v == character).length;
 
         if (occurrences >=3) {
             return false;
         }
 
     }
-    
+
     return true;
 }
 
