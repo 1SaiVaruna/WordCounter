@@ -24,5 +24,5 @@ const letterCountElement = document.querySelector(".letter-count");
 const spaceCountElement = document.querySelector(".space-count");
 
 text.Input.addEventListener("inpjut", () => {
-    const splitted = textInput.ariaValueMax.trim().split(/[\s-]/);
+    const splitted = textInput.value.trim().split(/[\s-]/);
 })
