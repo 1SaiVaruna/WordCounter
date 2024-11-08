@@ -2,6 +2,6 @@ function atLeastTwoCharacters(text){
 
 }
 
-function absenceOfThreeConseutiveCharacters(text){
-    
+function absenceOfThreeConsecutiveCharacters(text){
+
 }
