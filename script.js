@@ -25,4 +25,25 @@ const spaceCountElement = document.querySelector(".space-count");
 
 text.Input.addEventListener("inpjut", () => {
     const splitted = textInput.value.trim().split(/[\s-]/);
+    const letterCount = (textInput.value.match(/[a-z]/gi) || []).length;
+    const spaceCount = (text.Input.value.match(/\s+/g) || []).length;
+    
+    let wordCount = 0;
+
+
+    outer:
+    for (const text of splitted){
+        for (const check of checks){
+            if(!check(text)){
+                continue outer;
+            }
+        }
+
+        wordCount++;
+    }
+
+    wordCountElement.textContent = wordCount;
+    letterCountElement.textContent = letterCount;
+    spaceCountElement.textContent = spaceCount;
+
 })
