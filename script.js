@@ -17,3 +17,8 @@ function absenceOfThreeConsecutiveCharacters(text){
 }
 
 const checks = [atLeastTwoCharacters, absenceOfThreeConsecutiveCharacters];
+
+const textInput = document.querySelector(".text-input");
+const wordCountElement = document.querySelector(".word-count");
+const letterCountElement = document.querySelector(".letter-count");
+const spaceCountElement = document.querySelector(".space-count");
