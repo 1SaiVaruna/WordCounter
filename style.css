@@ -1,0 +1,14 @@
+body{
+    margin: 0;   
+}
+
+.container,
+.container *{
+    font-family: sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 25px;
+    padding: 25px;
+}
