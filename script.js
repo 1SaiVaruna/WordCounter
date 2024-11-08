@@ -24,7 +24,7 @@ const wordCountElement = document.querySelector(".word-count");
 const letterCountElement = document.querySelector(".letter-count");
 const spaceCountElement = document.querySelector(".space-count");
 
-text.Input.addEventListener("input", () => {
+textInput.addEventListener("input", () => {
     const splitted = textInput.value.trim().split(/[\s-]/);
     const letterCount = (textInput.value.match(/[a-z]/gi) || []).length;
     const spaceCount = (text.Input.value.match(/\s+/g) || []).length;
