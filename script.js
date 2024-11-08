@@ -1,5 +1,5 @@
 function atLeastTwoCharacters(text){
-    const letters = text.match(/[a-z]/gi);
+    const letters = text.match(/[a-z]/gi) || [];
 
     return letters.length >= 2;
 }
