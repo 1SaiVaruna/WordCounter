@@ -12,8 +12,9 @@ function absenceOfThreeConsecutiveCharacters(text){
             return false;
         }
 
-        return true;
     }
+    
+    return true;
 }
 
 const checks = [atLeastTwoCharacters, absenceOfThreeConsecutiveCharacters];
