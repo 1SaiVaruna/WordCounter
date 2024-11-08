@@ -1,5 +1,10 @@
 body{
-    margin: 0;   
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f4f7;
 }
 
 .container,
@@ -14,6 +19,10 @@ body{
     border: 1px solid #cccccc;
     border-radius: 5px;
     line-height: 1.4;
+
+    background-color: #ffffff;
+    border-color: #007acc;
+    color: #333333;
 }
 
 .title{
@@ -28,4 +37,8 @@ body{
     resize: none;
     padding: 10px;
     box-sizing: border-box;
+
+    background-color: #f9fbfd;
+    border: 1px solid #007acc;
+    color: #333333;
 }
